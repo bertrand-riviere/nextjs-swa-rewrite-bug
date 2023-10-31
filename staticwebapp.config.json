@@ -1,1 +1,13 @@
-{}
+{
+  "networking": {
+    "allowedIpRanges": ["AzureFrontDoor.Backend"]
+  },
+  "forwardingGateway": {
+    "requiredHeaders": {
+      "X-Azure-FDID": "36c0b54a-d592-436e-97e9-d85b5c142eeb"
+    },
+    "allowedForwardedHosts": [
+      "nextjs-swa-rewrite-bug-front-door-dwamffeqbnexb8hs.z01.azurefd.net"
+    ]
+  }
+}
