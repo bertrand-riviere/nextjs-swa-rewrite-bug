@@ -6,6 +6,10 @@ const nextConfig = {
   async rewrites() {
     return [
       {
+        source: '/edit/:id',
+        destination: '/edit?id=:id',
+      },
+      {
         source: '/page-a',
         destination: '/page-b',
       },
