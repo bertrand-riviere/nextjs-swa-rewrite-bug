@@ -21,11 +21,11 @@
   "homepage": "https://github.com/bertrand-riviere/nextjs-swa-rewrite-bug.git",
   "devDependencies": {
     "husky": "^8.0.3",
-    "prettier": "^3.0.2",
+    "prettier": "^3.0.3",
     "pretty-quick": "^3.1.3"
   },
   "dependencies": {
-    "next": "13.5.5",
+    "next": "14.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
